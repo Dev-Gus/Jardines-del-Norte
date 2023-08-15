@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivero Jardines del Norte</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="menu">
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="páginas/galeria.html">Galería</a></li>
+                    <li><a href="páginas/info.html">Sobre Nosotros</a></li>
+                    <li><a href="páginas/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Logo Jardines del Norte"></a>
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="slider">
+                <div class="slider__container">
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+    
+                    <div class="cards">
+                        <label id="selector-1" for="item-1" class="card">
+                            <img src="img/img-1.jpg" alt="Imagen vivero">
+                        </label>
+                        <label id="selector-2" for="item-2" class="card">
+                            <img src="img/img-2.jpg" alt="Imagen plantas">
+                        </label>
+                        <label id="selector-3" for="item-3" class="card">
+                            <img src="img/img-3.jpg" alt="Imagen plantas crasas y cactus">
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-instructions">
+                <p>*Clic en la imagen anterior/siguiente para visualizarla*</p>
+            </div>
+        </section>
+
+        <section class="intro">
+            <h1 class="title">Jardines del Norte</h1>
+            <div class="text-container">
+                <p>Somos un vivero especializado en la producción y comercialización de plantas de la más alta calidad.
+                    Desde hace más de 20 años nos hemos dedicado a ofrecer productos y servicios que satisfacen las
+                    necesidades de nuestros clientes, ya sean particulares o empresas. En nuestro vivero encontrarás una
+                    amplia variedad de plantas, desde las más comunes hasta las más exóticas, todas cuidadosamente
+                    seleccionadas y cultivadas en nuestras instalaciones. Además, nuestro equipo de expertos en
+                    jardinería
+                    está a tu disposición para asesorarte en todo lo que necesites para crear el jardín de tus sueños.</p>
+            </div>
+        </section>
+
+        <section class="servicios">
+            <h2 class="subtitle">Servicios</h2>
+            <div class="servicio">
+                <div class="servicio__img">
+                    <img src="img/servicio-1.jpg" alt="Venta de plantas y árboles.">
+                </div>
+                <h3 class="subtitle">Venta de plantas y árboles</h3>
+                <div class="servicio__text">
+                    <p>Ofrecemos una gran variedad de plantas y árboles de alta calidad y a precios competitivos.</p>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <div class="servicio__img">
+                    <img src="img/servicio-2.jpg" alt="Venta de plantas y árboles.">
+                </div>
+                <h3 class="subtitle">Mantenimiento de jardines</h3>
+                <div class="servicio__text">
+                    <p>Nuestro equipo de expertos en jardinería está capacitado para brindar un servicio de
+                        mantenimiento completo y de calidad.</p>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <div class="servicio__img">
+                    <img src="img/servicio-3.jpg" alt="Venta de plantas y árboles.">
+                </div>
+                <h3 class="subtitle">Asesoramiento y consultoría</h3>
+                <div class="servicio__text">
+                    <p>Brindamos asesoramiento y consultoría en jardinería y paisajismo para ayudar a nuestros clientes
+                        a crear el jardín de sus sueños.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <h3>Jardines del Norte</h3>
+            <p><span>Teléfono:</span> 099456872</p>
+            <p><span>Email:</span> info@jardinesdelnorte.com</p>
+            <a href="páginas/contacto.html" class="btn">Contactar</a>
+        </div>
+
+        <div class="footer-social">
+            <h3>Síguenos en redes sociales</h3>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2023 Jardines del Norte. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+    <script src="https://kit.fontawesome.com/ce6d39513c.js" crossorigin="anonymous"></script>
+</body>
+</html>
